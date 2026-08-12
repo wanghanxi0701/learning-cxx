@@ -23,7 +23,7 @@ std::vector<udim> strides(std::vector<udim> const &shape) {
         ans[i - 1] = stride;
         stride *= shape[i - 1];
     }
-    return ans;
+    return stride;
 }
 
 // ---- 不要修改以下代码 ----
